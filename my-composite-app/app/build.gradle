@@ -39,7 +39,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
     //Trying to add the dependency to my lib here
-    implementation project(":my-external-lib")
+    implementation "com.example:my-external-lib"
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

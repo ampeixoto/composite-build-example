@@ -3,6 +3,8 @@ plugins {
     id 'kotlin-android'
 }
 
+group 'com.example'
+
 android {
     compileSdk 31
 
